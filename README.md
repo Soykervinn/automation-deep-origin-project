@@ -230,8 +230,7 @@ If you would like to contribute:
 
 ## Project Overview (Video)
 
-🎥 Watch the full walkthrough of this test automation framework
-(Replace with your actual video link)
+🎥 [Watch the full walkthrough of this test automation framework](https://www.loom.com/share/bd876b75d4844af99ba118936c940824?sid=f7f55e4e-1e85-414f-92cb-802df3db018c)
 
 ## 📜 License
 

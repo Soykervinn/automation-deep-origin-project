@@ -22,11 +22,8 @@ jobs:
         run: npm ci
 
       - name: Run Cypress health check
-        run: 
-          npx cypress run \
-            --record \
-            --key ${{ secrets.CYPRESS_RECORD_KEY }} \
-            --spec "cypress/e2e/product-api/monitor-api-health/monitor-api-health.cy.js"
+        run:
+          npx cypress run --spec "cypress/e2e/product-api/monitor-api-health/monitor-api-health.cy.js" --record --key ${{ secrets.CYPRESS_RECORD_KEY }}
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
 

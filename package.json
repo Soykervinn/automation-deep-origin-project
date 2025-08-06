@@ -1,0 +1,28 @@
+{
+  "name": "automation-deep-origin-project",
+  "version": "1.0.0",
+  "description": "This is a project where I implemented a test automation framework, to perform automated API Testing usin cypress. This is a project focused on Deep Origin Company.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.5.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "cypress": "^14.0.3",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-cypress": "^4.1.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.1"
+  }
+}

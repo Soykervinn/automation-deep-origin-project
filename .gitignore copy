@@ -1,0 +1,7 @@
+node_modules/
+.env
+coverage/
+
+# Cypress specific
+cypress/screenshots
+cypress/downloads

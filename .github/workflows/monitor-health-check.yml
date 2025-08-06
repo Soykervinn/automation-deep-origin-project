@@ -2,7 +2,7 @@ name: 🩺 API Health Monitor
 
 on:
   schedule:
-    - cron: '25 8 * * *' # 10AM Pacific Time = 17 UTC
+    - cron: '30 15 * * *' # 10AM Pacific Time = 17 UTC
   workflow_dispatch:
 
 jobs:

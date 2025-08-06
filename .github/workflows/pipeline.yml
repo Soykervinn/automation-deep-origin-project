@@ -23,7 +23,7 @@ jobs:
         run: npm ci
 
       - name: Run Cypress regression suite
-        run: npx cypress run --spec "cypress/e2e/product-api/product-regression-suite/**/*.cy.js"
+        run: npx cypress run --record --key b0043287-11b9-4dda-8131-121eab081a70
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
